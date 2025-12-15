@@ -196,14 +196,23 @@ Examples:
 ```
 
 
-## 3. Run GitHub Copilot CLI
+## 3. Run GitHub Copilot CLI & Activate Designer
 
 ```bash
 copilot --banner
 ```
 
-**Give it a task**
+Activate the designer
+
+```bash
+> activate @.github/prompts/create-agentic-workflow.prompt.md
+```
+
+## 4. Run an Agentic Workflow
+
+```bash
+ > Generate a DEMO/docs folder with documentation for the DEMO/ai-agents-template and keep documentation up to date with changes 
+ ```
 
 
-
-
+Demo Ready
